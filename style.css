@@ -6,6 +6,7 @@ html, body{
     padding: 5px;
     margin-left: 5%;
     margin-right: 5%;
+   
   
 }
 header{
@@ -36,6 +37,8 @@ nav{
 a{
     color:white;
     background-color:black;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 main{
     padding-top: 5vh;
@@ -47,7 +50,7 @@ main{
 }
 main > h1{
     font-size: 250%;
-    margin-left:5%;
+    
 }
 h2{
     font-size: 200%;
