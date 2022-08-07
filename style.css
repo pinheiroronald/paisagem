@@ -4,8 +4,6 @@ html, body{
     font-family:Helvetica;
     font-size: small;
     padding: 5px;
-    margin-left: 5%;
-    margin-right: 5%;
    
   
 }
@@ -13,18 +11,15 @@ header{
     background-color: black;
     border: solid black;
     border-radius: 5px;
-    padding-bottom: 5vh;
 }
  header > h1{
     font-size: 300%;
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: white;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-family: sans-serif;
+
     text-align: center;
-    padding-bottom: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 1vh;
+    margin-right: 1vh;
 }
 header{
     position: sticky;
@@ -34,48 +29,38 @@ nav{
     border-radius: 5px;
     text-align: center;
 }
-a{
-    color:white;
-    background-color:black;
+input{
+    border-radius: 30px;
+    padding-top: 4px;
+    background-color:white;
     margin-left: 2%;
     margin-right: 2%;
-}
+    }
 main{
-    padding-top: 5vh;
-    padding-bottom: 5vh;
     border-radius: 5px;
     border: solid black;
-    margin-top: 15px;
+    margin-top: 4%;
     position: relative;
 }
-main > h1{
-    font-size: 250%;
-    
-}
-h2{
-    font-size: 200%;
-    margin-left: 5%;
-}
- p{
+p{
     text-align: justify;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1, h2{
+     margin-left: 6vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 hr{
     margin-left: 2%;
     margin-right: 2%;
 }
-img{
-    margin: center;
-    width: 300px;
-    box-shadow:  5px 5px 5px rgb(0, 0, 0);
-    border-radius: 5px;
-}
 footer{
-    margin-top: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
     background-color: black;
     text-align: center;
     color: white;
-}
-footer > p{
-    text-align: center;
 }
